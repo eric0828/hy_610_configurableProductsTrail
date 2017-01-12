@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../ext-accelerator/acceleratorstorefrontcommons/acceleratorstorefrontcommons.iml" filepath="$PROJECT_DIR$/../../ext-accelerator/acceleratorstorefrontcommons/acceleratorstorefrontcommons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-addon/addonsupport/addonsupport.iml" filepath="$PROJECT_DIR$/../../ext-addon/addonsupport/addonsupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplateaddon/checkboxconfiguratortemplateaddon.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplateaddon/checkboxconfiguratortemplateaddon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplatefacades/checkboxconfiguratortemplatefacades.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplatefacades/checkboxconfiguratortemplatefacades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplateservices/checkboxconfiguratortemplateservices.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplateservices/checkboxconfiguratortemplateservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/commercefacades/commercefacades.iml" filepath="$PROJECT_DIR$/../../ext-commerce/commercefacades/commercefacades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/commerceservices/commerceservices.iml" filepath="$PROJECT_DIR$/../../ext-commerce/commerceservices/commerceservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hy_610_configurableProductsTrail.iml" filepath="$PROJECT_DIR$/.idea/hy_610_configurableProductsTrail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../platform/platform.iml" filepath="$PROJECT_DIR$/../../platform/platform.iml" />
     </modules>
   </component>
 </project>
