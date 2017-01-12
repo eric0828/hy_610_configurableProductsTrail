@@ -6,6 +6,9 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd
            http://www.springframework.org/schema/aop
            http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<context:component-scan base-package="de.hybris.platform.checkboxconfiguratortemplateaddon.controllers"/>
+
 	<bean id="checkboxConfigurationsPopulator" class="de.hybris.platform.checkboxconfiguratortemplatefacades.populators.CheckboxConfigurationsPopulator" />
 	<bean id="checkboxConfiguratorEnum" class="de.hybris.platform.catalog.enums.ConfiguratorType" factory-method="valueOf">
 		<constructor-arg value="CHECKBOX"/>
