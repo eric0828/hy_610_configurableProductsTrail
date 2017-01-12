@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../ext-accelerator/acceleratorcms/acceleratorcms.iml" filepath="$PROJECT_DIR$/../../ext-accelerator/acceleratorcms/acceleratorcms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-accelerator/acceleratorfacades/acceleratorfacades.iml" filepath="$PROJECT_DIR$/../../ext-accelerator/acceleratorfacades/acceleratorfacades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-accelerator/acceleratorservices/acceleratorservices.iml" filepath="$PROJECT_DIR$/../../ext-accelerator/acceleratorservices/acceleratorservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../ext-accelerator/acceleratorstorefrontcommons/acceleratorstorefrontcommons.iml" filepath="$PROJECT_DIR$/../../ext-accelerator/acceleratorstorefrontcommons/acceleratorstorefrontcommons.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../ext-addon/addonsupport/addonsupport.iml" filepath="$PROJECT_DIR$/../../ext-addon/addonsupport/addonsupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/basecommerce/basecommerce.iml" filepath="$PROJECT_DIR$/../../ext-commerce/basecommerce/basecommerce.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplateaddon/checkboxconfiguratortemplateaddon.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplateaddon/checkboxconfiguratortemplateaddon.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplatefacades/checkboxconfiguratortemplatefacades.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplatefacades/checkboxconfiguratortemplatefacades.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplateservices/checkboxconfiguratortemplateservices.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplateservices/checkboxconfiguratortemplateservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-content/cms2/cms2.iml" filepath="$PROJECT_DIR$/../../ext-content/cms2/cms2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-content/cms2lib/cms2lib.iml" filepath="$PROJECT_DIR$/../../ext-content/cms2lib/cms2lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/commercefacades/commercefacades.iml" filepath="$PROJECT_DIR$/../../ext-commerce/commercefacades/commercefacades.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/commerceservices/commerceservices.iml" filepath="$PROJECT_DIR$/../../ext-commerce/commerceservices/commerceservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../config/config.iml" filepath="$PROJECT_DIR$/../../../config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/customerreview/customerreview.iml" filepath="$PROJECT_DIR$/../../ext-commerce/customerreview/customerreview.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/hy_610_configurableProductsTrail.iml" filepath="$PROJECT_DIR$/.idea/hy_610_configurableProductsTrail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/payment/payment.iml" filepath="$PROJECT_DIR$/../../ext-commerce/payment/payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../platform/platform.iml" filepath="$PROJECT_DIR$/../../platform/platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/promotions/promotions.iml" filepath="$PROJECT_DIR$/../../ext-commerce/promotions/promotions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/solrfacetsearch/solrfacetsearch.iml" filepath="$PROJECT_DIR$/../../ext-commerce/solrfacetsearch/solrfacetsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-platform-optional/springintegrationlibs/springintegrationlibs.iml" filepath="$PROJECT_DIR$/../../ext-platform-optional/springintegrationlibs/springintegrationlibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/ticketsystem/ticketsystem.iml" filepath="$PROJECT_DIR$/../../ext-commerce/ticketsystem/ticketsystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ext-commerce/voucher/voucher.iml" filepath="$PROJECT_DIR$/../../ext-commerce/voucher/voucher.iml" />
     </modules>
   </component>
 </project>

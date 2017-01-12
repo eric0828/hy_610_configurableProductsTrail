@@ -23,7 +23,8 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
            
-    <context:annotation-config/> 
+    <context:annotation-config/>
+	<context:component-scan base-package="de.hybris.platform.checkboxconfiguratortemplateaddon.controllers"/>
 
 	<bean id="checkboxconfiguratortemplateaddonCoreDataImportedEventListener" parent="abstractCoreDataImportedEventListener">
 		<property name="supportedChannels">
