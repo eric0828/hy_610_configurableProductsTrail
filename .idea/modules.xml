@@ -64,6 +64,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../ext-atddtests/c4ccustomeratddtests/c4ccustomeratddtests.iml" filepath="$PROJECT_DIR$/../../ext-atddtests/c4ccustomeratddtests/c4ccustomeratddtests.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../ext-addon/captchaaddon/captchaaddon.iml" filepath="$PROJECT_DIR$/../../ext-addon/captchaaddon/captchaaddon.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplateaddon/checkboxconfiguratortemplateaddon.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplateaddon/checkboxconfiguratortemplateaddon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplatebackoffice/checkboxconfiguratortemplatebackoffice.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplatebackoffice/checkboxconfiguratortemplatebackoffice.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplatefacades/checkboxconfiguratortemplatefacades.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplatefacades/checkboxconfiguratortemplatefacades.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxconfiguratortemplateservices/checkboxconfiguratortemplateservices.iml" filepath="$PROJECT_DIR$/checkboxconfiguratortemplateservices/checkboxconfiguratortemplateservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../ext-backoffice/chinaacceleratorbackoffice/chinaacceleratorbackoffice.iml" filepath="$PROJECT_DIR$/../../ext-backoffice/chinaacceleratorbackoffice/chinaacceleratorbackoffice.iml" />
