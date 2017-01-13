@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  ~ [y] hybris Platform
+  ~
+  ~ Copyright (c) 2000-2015 hybris AG
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of hybris
+  ~ ("Confidential Information"). You shall not disclose such Confidential
+  ~ Information and shall use it only in accordance with the terms of the
+  ~ license agreement you entered into with hybris.
+  -->
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/widgets.xsd">
+
+    <widget-extension widgetId="backofficeMainSlot">
+        <widget id="checkboxconfiguratortemplatebackoffice-perspective" widgetDefinitionId="de.hybris.platform.checkboxconfiguratortemplatebackoffice.widgets.checkboxconfiguratortemplatebackofficewidget"
+            template="false" slotId="perspectives" title="Hello checkboxconfiguratortemplatebackoffice">
+            <setting key="perspectiveImageUrl" value="/cng/images/perspective.png"
+                type="String" />
+        </widget>
+    </widget-extension>
+
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-explorer-tree" outputId="nodeSelected" targetWidgetId="checkboxconfiguratortemplatebackoffice-tree-node-adapter" inputId="input"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-tree-node-adapter" outputId="true" targetWidgetId="checkboxconfiguratortemplatebackoffice-typecode-extractor" inputId="genericInput"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-tree-node-adapter" outputId="true" targetWidgetId="checkboxconfiguratortemplatebackoffice-search-enabler" inputId="genericInput"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-tree-node-adapter" outputId="false" targetWidgetId="checkboxconfiguratortemplatebackoffice-search-disabler" inputId="genericInput"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-typecode-extractor" outputId="genericOutput" targetWidgetId="checkboxconfiguratortemplatebackoffice-search-logic" inputId="type"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-search-enabler" outputId="genericOutput" targetWidgetId="checkboxconfiguratortemplatebackoffice-text-search" inputId="enabled"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-search-disabler" outputId="genericOutput" targetWidgetId="checkboxconfiguratortemplatebackoffice-text-search" inputId="enabled"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-text-search" outputId="query" targetWidgetId="checkboxconfiguratortemplatebackoffice-search-logic" inputId="searchtext"/>
+    <widget-connection sourceWidgetId="checkboxconfiguratortemplatebackoffice-search-logic" outputId="pageable" targetWidgetId="checkboxconfiguratortemplatebackoffice-simple-list" inputId="pageable"/>
+
+</widgets>
